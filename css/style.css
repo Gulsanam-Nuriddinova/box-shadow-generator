@@ -6,7 +6,6 @@
 
 body {
     font-family: sans-serif;
-    overflow: hidden;
 }
 
 ul {
@@ -46,6 +45,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 10px;
 }
 
 .logo {
@@ -120,33 +120,77 @@ input[type="color"] {
     border: 1px solid black;
 }
 
-    #box2 {
-       width: 350px;
-       height: 100px;
-       padding: 25px 15px;
-       border: 2px black solid;
-       color: rgb(111, 23, 40); ;
-       
-    }
+#box2 {
+    width: 350px;
+    height: 130px;
+    padding: 25px 15px;
+    border: 2px black solid;
+    color: #6f1728;
     
 
+}
 
-#horizontal-shadow{
+
+#horizontal-shadow {
     margin-bottom: 24px;
 }
 
-#vertical-shadow{
+#vertical-shadow {
     margin-bottom: 24px;
 }
 
-#oppacity{
+#oppacity {
     margin-bottom: 24px;
 }
 
-#blur{
+#blur {
     margin-bottom: 24px;
 }
 
-#spread{
+#spread {
     margin-bottom: 24px;
+}
+
+@media (max-width: 768px) {
+ 
+    .container {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .logo {
+        font-size: 1.5rem;
+    }
+    .hero{
+        flex-direction: column;
+        width: 80%;
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+    #box{
+        flex-direction: column;
+        width: 80%;
+        height: 330px;
+        max-width: 100%;
+        margin-bottom: 70px;
+        
+    }
+    #box2{
+        flex-direction: column;
+        width: 80%;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 5px 15px;
+        margin-top: 10px;
+    }
+    .logo {
+        font-size: 1.2rem;
+    }
+    .hero {
+        padding: 10px;
+    }
 }

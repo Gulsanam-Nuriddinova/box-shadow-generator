@@ -126,8 +126,6 @@ input[type="color"] {
     padding: 25px 15px;
     border: 2px black solid;
     color: #6f1728;
-    
-
 }
 
 
@@ -193,4 +191,14 @@ input[type="color"] {
     .hero {
         padding: 10px;
     }
+
+    #box2 {
+        width: 380px;
+        height: 130px;
+        padding: 25px 15px;
+        border: 2px black solid;
+        color: #6f1728;
+        gap: 7px;
+    }
+
 }

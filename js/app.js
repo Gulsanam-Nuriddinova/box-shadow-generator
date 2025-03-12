@@ -8,19 +8,19 @@ const elSpread = document.getElementById('spread');
 const elBox2 = document.getElementById('box2');
 
 function updateBoxShadow() {
-    const color = elColor.value; 
-    const horizontal = elInputHorizontal.value + 'px'; 
-    const vertical = elVertical.value + 'px'; 
-    const blur = elBlur.value + 'px'; 
-    const spread = elSpread.value + 'px'; 
-    const opacity = elOppacity.value / 100; 
+    const color = elColor.value;
+    const horizontal = elInputHorizontal.value + 'px';
+    const vertical = elVertical.value + 'px';
+    const blur = elBlur.value + 'px';
+    const spread = elSpread.value + 'px';
+    const opacity = elOppacity.value / 100;
 
     elBox.style.boxShadow = `${horizontal} ${vertical} ${blur} ${spread} rgba(${parseInt(color.slice(1, 3), 16)}, ${parseInt(color.slice(3, 5), 16)}, ${parseInt(color.slice(5, 7), 16)}, ${opacity})`;
 
     elBox2.innerHTML = `
    
         <p>box-shadow: ${horizontal} ${vertical} ${blur} ${spread} rgba(${parseInt(color.slice(1, 3), 16)}, ${parseInt(color.slice(3, 5), 16)}, ${parseInt(color.slice(5, 7), 16)}, ${opacity});</p>
-        <button onclick="copyText()" style="background-color: #6f1728; margin-top:10px; margin-left:224px;  color: white; border: none; padding: 10px 20px; font-size: 16px; cursor: pointer; border-radius: 5px; transition: background-color 0.3s ease;">Copy</button>
+        <button onclick="copyText()" style="background-color: #6f1728; margin-top:7px; margin-left:224px;  color: white; border: none; padding: 10px 20px; font-size: 16px; cursor: pointer; border-radius: 5px; transition: background-color 0.3s ease;">Copy</button>
     `;
 }
 

@@ -1,0 +1,38 @@
+# Box Shadow Generator 🎨
+
+This is a simple and responsive Box Shadow Generator built using only HTML, CSS, and JavaScript.
+
+You can easily adjust the horizontal and vertical shadow, blur, spread, opacity, and color — and copy the resulting CSS.
+
+---
+
+## ✅ Features
+
+- Live preview of box shadow changes.
+- Easy-to-use sliders and color pickers.
+- One-click copy button for CSS code.
+- Clean and minimal user interface.
+- Fully responsive on **mobile**, **tablet**, and **desktop**.
+
+---
+
+## 🚀 How to Use
+
+1. Download and unzip the folder.
+2. Open `index.html` in any modern browser.
+3. Adjust values and copy the generated CSS.
+
+---
+
+## 📦 Requirements
+
+- A modern web browser (Chrome, Firefox, Safari, Edge).
+- No installation needed — works directly in browser.
+
+---
+
+## 💡 Customization
+
+You can modify styles in `style.css` and logic in `main.js` to fit your needs.
+
+---

@@ -128,23 +128,10 @@ input[type="color"] {
     color: #6f1728;
 }
 
-
-#horizontal-shadow {
-    margin-bottom: 24px;
-}
-
-#vertical-shadow {
-    margin-bottom: 24px;
-}
-
-#oppacity {
-    margin-bottom: 24px;
-}
-
-#blur {
-    margin-bottom: 24px;
-}
-
+#horizontal-shadow,
+#vertical-shadow,
+#oppacity,
+#blur,
 #spread {
     margin-bottom: 24px;
 }

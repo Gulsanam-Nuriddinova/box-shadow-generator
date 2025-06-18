@@ -51,9 +51,6 @@ function copyText() {
     }, 3000);
 }
 
-
-
-
 elColor.addEventListener('input', updateBoxShadow);
 elInputHorizontal.addEventListener('input', updateBoxShadow);
 elVertical.addEventListener('input', updateBoxShadow);
